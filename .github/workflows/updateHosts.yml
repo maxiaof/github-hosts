@@ -42,10 +42,3 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-    - name: Sync Github Repos To Gitee
-      uses: wearerequired/git-mirror-action@master
-      env:
-          SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
-      with:
-          source-repo: "git@github.com:maxiaof/github-hosts.git"
-          destination-repo: "git@gitee.com:maxiaofa/github-hosts.git"
