@@ -42,3 +42,9 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+    - name: sync-gitee-mirror
+      uses: abersheeran/sync-gitee-mirror@v1-beta
+      with:
+        repository: maxiaofa/github-hosts
+        username: ${{ secrets.GITEE_USER }}
+        password: ${{ secrets.GITEE_PASSWORD }}
