@@ -42,6 +42,8 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Clear .git
+      run: rm -rf .git/
     - name: sync-gitee-mirror
       uses: abersheeran/sync-gitee-mirror@v1-beta
       with:
