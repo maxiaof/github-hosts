@@ -27,6 +27,7 @@ jobs:
       run: java -jar target/github-hosts-1.0.jar
     - name: Clear target
       run: rm -rf target/
+      
     - name: Commit
       id: commit
       run: |
@@ -42,6 +43,7 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        
     - name: Clear .git
       run: rm -rf .git/
     - name: sync-gitee-mirror
