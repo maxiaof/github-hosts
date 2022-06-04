@@ -10,31 +10,35 @@
 ### 2.1 复制下面的内容
 ```bash
 #Github Hosts Start
-#Update Time: 2022-06-03
+#Update Time: 2022-06-04
 #Project Address: https://github.com/maxiaof/github-hosts
 #Update URL: https://github.com/maxiaof/github-hosts/blob/master/hosts
-140.82.114.26 alive.github.com
-140.82.114.26 live.github.com
-185.199.111.154 github.githubassets.com
-140.82.113.21 central.github.com
-185.199.110.133 desktop.githubusercontent.com
-185.199.109.153 assets-cdn.github.com
-185.199.109.133 camo.githubusercontent.com
-185.199.108.133 github.map.fastly.net
+140.82.112.26 alive.github.com
+140.82.112.26 live.github.com
+185.199.110.154 github.githubassets.com
+140.82.113.22 central.github.com
+185.199.111.133 desktop.githubusercontent.com
+185.199.111.153 assets-cdn.github.com
+185.199.110.133 camo.githubusercontent.com
+185.199.110.133 github.map.fastly.net
 199.232.25.194 github.global.ssl.fastly.net
 140.82.121.3 gist.github.com
-185.199.111.153 github.io
-nullnullnullnullnullnull185.199.111.133 avatars5.githubusercontent.com
-185.199.109.133 avatars4.githubusercontent.com
-185.199.110.133 avatars3.githubusercontent.com
-185.199.109.133 avatars2.githubusercontent.com
-185.199.109.133 avatars1.githubusercontent.com
-185.199.111.133 avatars0.githubusercontent.com
-185.199.111.133 avatars.githubusercontent.com
-nullnullnullnullnullnullnullnullnullnullnullnullnullnull#Github Hosts End
+185.199.109.153 github.io
+140.82.121.4 github.com
+192.0.66.2 github.blog
+140.82.121.6 api.github.com
+185.199.110.133 raw.githubusercontent.com
+185.199.109.133 user-images.githubusercontent.com
+185.199.108.133 favicons.githubusercontent.com
+185.199.108.133 avatars5.githubusercontent.com
+185.199.111.133 avatars4.githubusercontent.com
+185.199.111.133 avatars3.githubusercontent.com
+nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnull185.199.109.133 cloud.githubusercontent.com
+185.199.111.133 objects.githubusercontent.com
+#Github Hosts End
 
 ```
-最后更新时间：`2022-06-03`
+最后更新时间：`2022-06-04`
 
 ## 2.2 修改 hosts 文件
 hosts 文件在不同系统位置不一，详情如下：
