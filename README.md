@@ -10,29 +10,21 @@
 ### 2.1 复制下面的内容
 ```bash
 #Github Hosts Start
-#Update Time: 2022-06-14
+#Update Time: 2022-06-15
 #Project Address: https://github.com/maxiaof/github-hosts
 #Update URL: https://github.com/maxiaof/github-hosts/blob/master/hosts
-nullnullnullnullnullnullnullnullnullnullnullnullnull140.82.121.5 api.github.com
-185.199.111.133 raw.githubusercontent.com
-185.199.110.133 user-images.githubusercontent.com
-185.199.110.133 favicons.githubusercontent.com
-185.199.109.133 avatars5.githubusercontent.com
-185.199.109.133 avatars4.githubusercontent.com
-nullnullnullnullnullnullnull54.231.135.9 github-com.s3.amazonaws.com
-54.231.227.249 github-production-release-asset-2e65be.s3.amazonaws.com
-54.231.225.153 github-production-user-asset-6210df.s3.amazonaws.com
-54.231.135.9 github-production-repository-file-5c1aeb.s3.amazonaws.com
-185.199.108.153 githubstatus.com
-64.71.144.211 github.community
-40.68.78.177 github.dev
-140.82.113.21 collector.github.com
-null185.199.110.133 media.githubusercontent.com
-null185.199.110.133 objects.githubusercontent.com
-#Github Hosts End
+140.82.114.25 alive.github.com
+140.82.114.25 live.github.com
+null140.82.112.21 central.github.com
+185.199.108.133 desktop.githubusercontent.com
+185.199.111.153 assets-cdn.github.com
+nullnullnullnullnullnullnullnull185.199.108.133 raw.githubusercontent.com
+185.199.109.133 user-images.githubusercontent.com
+185.199.111.133 favicons.githubusercontent.com
+nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnull#Github Hosts End
 
 ```
-最后更新时间：`2022-06-14`
+最后更新时间：`2022-06-15`
 
 ## 2.2 修改 hosts 文件
 hosts 文件在不同系统位置不一，详情如下：
