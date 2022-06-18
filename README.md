@@ -10,23 +10,37 @@
 ### 2.1 复制下面的内容
 ```bash
 #Github Hosts Start
-#Update Time: 2022-06-17
+#Update Time: 2022-06-18
 #Project Address: https://github.com/maxiaof/github-hosts
 #Update URL: https://github.com/maxiaof/github-hosts/blob/master/hosts
-140.82.114.25 alive.github.com
-140.82.114.25 live.github.com
-185.199.108.154 github.githubassets.com
-140.82.114.22 central.github.com
-185.199.108.133 desktop.githubusercontent.com
+140.82.113.26 alive.github.com
+140.82.113.26 live.github.com
+185.199.110.154 github.githubassets.com
+140.82.112.22 central.github.com
+185.199.111.133 desktop.githubusercontent.com
 185.199.110.153 assets-cdn.github.com
-nullnullnullnullnullnullnullnullnullnullnullnull185.199.110.133 avatars4.githubusercontent.com
-null185.199.111.133 avatars2.githubusercontent.com
-nullnullnullnull52.217.138.121 github-cloud.s3.amazonaws.com
-nullnullnullnullnullnull40.68.78.177 github.dev
-nullnullnullnullnull#Github Hosts End
+185.199.111.133 camo.githubusercontent.com
+185.199.108.133 github.map.fastly.net
+null140.82.121.3 gist.github.com
+nullnullnullnullnullnullnull185.199.111.133 avatars5.githubusercontent.com
+185.199.108.133 avatars4.githubusercontent.com
+185.199.108.133 avatars3.githubusercontent.com
+185.199.109.133 avatars2.githubusercontent.com
+185.199.109.133 avatars1.githubusercontent.com
+185.199.110.133 avatars0.githubusercontent.com
+185.199.109.133 avatars.githubusercontent.com
+null52.216.130.187 github-cloud.s3.amazonaws.com
+52.216.133.171 github-com.s3.amazonaws.com
+52.216.133.171 github-production-release-asset-2e65be.s3.amazonaws.com
+null54.231.225.33 github-production-repository-file-5c1aeb.s3.amazonaws.com
+185.199.108.153 githubstatus.com
+null40.68.78.177 github.dev
+140.82.112.21 collector.github.com
+13.107.42.16 pipelines.actions.githubusercontent.com
+nullnullnull#Github Hosts End
 
 ```
-最后更新时间：`2022-06-17`
+最后更新时间：`2022-06-18`
 
 ## 2.2 修改 hosts 文件
 hosts 文件在不同系统位置不一，详情如下：
