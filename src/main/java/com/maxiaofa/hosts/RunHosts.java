@@ -13,6 +13,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 import java.util.logging.Logger;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 /**
@@ -49,7 +51,17 @@ public class RunHosts {
         Async.beginWork(10000, GenContentTheadPoolExecutorConfig.threadPoolExecutor(), workerWrapperList.toArray(new WorkerWrapper[]{}));
 
         workerWrapperList.forEach(workerWrapper -> {
-            content.append(workerWrapper.getWorkResult().getResult());
+            String result = workerWrapper.getWorkResult().getResult();
+            if(result != null){
+                String pattern = "((2(5[0-5]|[0-4]\\d))|[0-1]?\\d{1,2})(\\.((2(5[0-5]|[0-4]\\d))|[0-1]?\\d{1,2})){3}";
+
+                Pattern r = Pattern.compile(pattern);
+                Matcher m = r.matcher(result);
+
+                if(m.find()){
+                    content.append(result);
+                }
+            }
         });
 
         Async.shutDown();

@@ -1,5 +1,9 @@
 package com.maxiaofa.hosts.utils;
 
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -13,10 +17,10 @@ import java.nio.charset.StandardCharsets;
 public class HtmlUtils {
 
     public static String parseHtmlGetIpAddress(String html){
-        String start = "<span id=\"ip_address\">";
-        String end = "</span> <small>(<a href=\"https://www.virustotal.com/#/ip-address/";
-        return html.substring(html.indexOf(start)+start.length(),
-                html.indexOf(end));
+        Document parseHtml = Jsoup.parse(html);
+
+        Element ipAddress = parseHtml.getElementById("ip_address");
+        return ipAddress!=null ? ipAddress.html() : null;
     }
 
     public static String getUrlHtml(String url) {
