@@ -5,5 +5,5 @@ package com.maxiaofa.hosts.constants;
  */
 public class IpAddress {
 
-    public final static String SELECT_IP_ADDRESS_URL = "https://sitereport.netcraft.com/?url=";
+    public final static String SELECT_IP_ADDRESS_URL = "https://tools.tutorialspoint.com/ip_lookup_ajax.php?host=";
 }

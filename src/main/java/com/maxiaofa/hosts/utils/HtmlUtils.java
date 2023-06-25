@@ -19,7 +19,7 @@ public class HtmlUtils {
     public static String parseHtmlGetIpAddress(String html){
         Document parseHtml = Jsoup.parse(html);
 
-        Element ipAddress = parseHtml.getElementById("ip_address");
+        Element ipAddress = parseHtml.getElementById("divString0");
         return ipAddress!=null ? ipAddress.html() : null;
     }
 
