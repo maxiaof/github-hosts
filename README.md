@@ -10,13 +10,13 @@
 ### 2.1 复制下面的内容
 ```bash
 #Github Hosts Start
-#Update Time: 2023-06-24
+#Update Time: 2023-06-25
 #Project Address: https://github.com/maxiaof/github-hosts
 #Update URL: https://raw.githubusercontent.com/maxiaof/github-hosts/master/hosts
 #Github Hosts End
 
 ```
-最后更新时间：`2023-06-24`
+最后更新时间：`2023-06-25`
 
 ## 2.2 修改 hosts 文件
 hosts 文件在不同系统位置不一，详情如下：
