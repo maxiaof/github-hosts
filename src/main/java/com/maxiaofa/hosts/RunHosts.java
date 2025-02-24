@@ -1,7 +1,7 @@
 package com.maxiaofa.hosts;
 
-import com.jd.platform.async.executor.Async;
-import com.jd.platform.async.wrapper.WorkerWrapper;
+import com.maxiaofa.hosts.async.executor.Async;
+import com.maxiaofa.hosts.async.wrapper.WorkerWrapper;
 import com.maxiaofa.hosts.config.GenContentTheadPoolExecutorConfig;
 import com.maxiaofa.hosts.constants.GithubUrl;
 import com.maxiaofa.hosts.utils.FileUtils;

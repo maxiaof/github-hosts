@@ -6,36 +6,22 @@
 
     <groupId>com.maxiaofa.github-hosts</groupId>
     <artifactId>github-hosts</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
     </properties>
 
 
     <dependencies>
-        <!--asyncTool-->
-        <dependency>
-            <groupId>com.gitee.jd-platform-opensource</groupId>
-            <artifactId>asyncTool</artifactId>
-            <version>b868723497</version>
-        </dependency>
-
         <!--jsoup-->
         <dependency>
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
-            <version>1.15.2</version>
+            <version>1.15.3</version>
         </dependency>
     </dependencies>
-
-    <repositories>
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
-    </repositories>
 
     <build>
         <plugins>
@@ -57,7 +43,7 @@
                         <id>make-assembly</id>
                         <phase>package</phase>
                         <goals>
-                            <goal>assembly</goal>
+                            <goal>single</goal>
                         </goals>
                     </execution>
                 </executions>

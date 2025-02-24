@@ -1,7 +1,7 @@
 package com.maxiaofa.hosts.worker;
 
-import com.jd.platform.async.callback.IWorker;
-import com.jd.platform.async.wrapper.WorkerWrapper;
+import com.maxiaofa.hosts.async.callback.IWorker;
+import com.maxiaofa.hosts.async.wrapper.WorkerWrapper;
 import com.maxiaofa.hosts.constants.IpAddress;
 import com.maxiaofa.hosts.utils.HtmlUtils;
 
