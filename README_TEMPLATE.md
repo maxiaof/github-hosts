@@ -32,3 +32,4 @@ hosts 文件在不同系统位置不一，详情如下：
 3. Linux 命令：`sudo nscd restart`
 
 **Tips：** 如以上刷新不好使，请重启尝试
+[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
