@@ -1,48 +1,28 @@
 package com.maxiaofa.hosts.utils;
 
-import com.maxiaofa.hosts.RunHosts;
-
-import java.io.*;
-import java.util.Scanner;
-import java.util.logging.Logger;
+import java.io.File;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
 
 /**
  * @author MaXiaoFa
  */
 public class FileUtils {
 
-    private static final Logger log = Logger.getLogger(RunHosts.class.getName());
-
-    public static String read(File file){
-        StringBuilder content = new StringBuilder();
-        try (Scanner sc = new Scanner(new FileReader(file.getName()))) {
-            while (sc.hasNextLine()) {
-                content.append(sc.nextLine())
-                        .append("\n");
-            }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
+    public static String read(File file) {
+        try {
+            return Files.readString(file.toPath(), StandardCharsets.UTF_8);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
-        return content.toString();
     }
 
-    public static void write(File file,String content){
-        FileOutputStream fos = null;
+    public static void write(File file, String content) {
         try {
-            if(!file.exists()){
-                boolean newFile = file.createNewFile();
-                if(newFile)log.info("文件不存在正在创建文件...");
-            }
-            fos = new FileOutputStream(file);
-            fos.write(content.getBytes());
+            Files.writeString(file.toPath(), content, StandardCharsets.UTF_8);
         } catch (IOException e) {
-            e.printStackTrace();
-        }finally{
-            try {
-                if(null!=fos)fos.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            throw new RuntimeException(e);
         }
     }
 }
