@@ -10,50 +10,50 @@
 ### 2.1 复制下面的内容
 ```bash
 #Github Hosts Start
-#Update Time: 2026-10-05
+#Update Time: 2026-10-06
 #Project Address: https://github.com/maxiaof/github-hosts
 #Update URL: https://raw.githubusercontent.com/maxiaof/github-hosts/master/hosts
-140.82.112.25 alive.github.com
-140.82.113.25 live.github.com
-185.199.108.215 github.githubassets.com
-140.82.114.22 central.github.com
-185.199.109.133 desktop.githubusercontent.com
-185.199.108.133 camo.githubusercontent.com
+140.82.113.25 alive.github.com
+140.82.112.26 live.github.com
+185.199.111.215 github.githubassets.com
+140.82.113.21 central.github.com
+185.199.110.133 desktop.githubusercontent.com
+185.199.110.133 camo.githubusercontent.com
 185.199.108.133 github.map.fastly.net
 151.101.1.194 github.global.ssl.fastly.net
 172.182.252.133 gist.github.com
-185.199.108.153 github.io
+185.199.110.153 github.io
 172.182.252.133 github.com
 192.0.66.2 github.blog
-20.29.134.17 api.github.com
-185.199.110.133 raw.githubusercontent.com
+172.182.252.137 api.github.com
+185.199.108.133 raw.githubusercontent.com
 185.199.111.133 user-images.githubusercontent.com
 185.199.111.133 favicons.githubusercontent.com
-185.199.111.133 avatars5.githubusercontent.com
+185.199.109.133 avatars5.githubusercontent.com
 185.199.108.133 avatars4.githubusercontent.com
-185.199.111.133 avatars3.githubusercontent.com
-185.199.108.133 avatars2.githubusercontent.com
+185.199.108.133 avatars3.githubusercontent.com
+185.199.111.133 avatars2.githubusercontent.com
 185.199.110.133 avatars1.githubusercontent.com
-185.199.108.133 avatars0.githubusercontent.com
-185.199.108.133 avatars.githubusercontent.com
-172.182.252.132 codeload.github.com
-52.216.36.114 github-cloud.s3.amazonaws.com
-52.217.74.176 github-com.s3.amazonaws.com
-16.182.71.242 github-production-release-asset-2e65be.s3.amazonaws.com
-16.15.244.10 github-production-user-asset-6210df.s3.amazonaws.com
-16.182.24.234 github-production-repository-file-5c1aeb.s3.amazonaws.com
+185.199.111.133 avatars0.githubusercontent.com
+185.199.109.133 avatars.githubusercontent.com
+140.82.116.9 codeload.github.com
+16.15.246.150 github-cloud.s3.amazonaws.com
+16.15.207.153 github-com.s3.amazonaws.com
+16.182.65.106 github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.203.114 github-production-user-asset-6210df.s3.amazonaws.com
+16.15.253.173 github-production-repository-file-5c1aeb.s3.amazonaws.com
 185.199.110.153 githubstatus.com
-140.82.113.18 github.community
+140.82.113.17 github.community
 20.99.227.183 github.dev
-140.82.112.21 collector.github.com
+140.82.112.22 collector.github.com
 13.107.42.16 pipelines.actions.githubusercontent.com
 185.199.108.133 media.githubusercontent.com
 185.199.109.133 cloud.githubusercontent.com
-185.199.111.133 objects.githubusercontent.com
+185.199.108.133 objects.githubusercontent.com
 #Github Hosts End
 
 ```
-最后更新时间：`2026-10-05`
+最后更新时间：`2026-10-06`
 
 ## 2.2 修改 hosts 文件
 hosts 文件在不同系统位置不一，详情如下：
